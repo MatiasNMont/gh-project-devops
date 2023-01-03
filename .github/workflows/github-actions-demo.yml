@@ -1,0 +1,8 @@
+name: Reusable workflow
+
+on:
+  workflow_call:
+
+jobs:
+  call-another-reusable:
+    uses: MatiasNMont/github-action-demo/go/.github/workflows/go_pipeline.yml@feature.CommitInitial
