@@ -5,4 +5,4 @@ on:
 
 jobs:
   call-another-reusable:
-    uses: MatiasNMont/github-action-demo/go/.github/workflows/go_pipeline.yml@feature.CommitInitial
+    uses: matiasnmont/github-action-demo/go/.github/workflows/go_pipeline.yml@feature.CommitInitial
