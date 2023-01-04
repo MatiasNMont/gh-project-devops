@@ -4,4 +4,4 @@ on:
   workflow_call:
 jobs:
   call-another-reusable:
-    uses: MatiasNMont/github-action-demo/.github/workflows/demo-init.yml@feature.CommitInitial
+    uses: matiasnmont/github-action-demo/.github/workflows/demo-init.yml@feature.CommitInitial
